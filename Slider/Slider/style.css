@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue",Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	background: #EEE;
+	/*max-width: 960px;*/
+}
+
+.headerContainerWrapper,
+.bodyContainerWrapper,
+.footerContainerWrapper{
+	margin: 0 auto;
+	max-width: 960px;
+	background: #FFF;
+	position: relative;
+	left: 0; 
+	-moz-transition: left 400ms ease;
+	-webkit-transition: left 400ms ease;
+	-o-transition: left 400ms ease;
+	-ms-transition: left 400ms ease;
+	-transition: left 400ms ease;
+}
+
+.sideOpen .headerContainerWrapper,
+.sideOpen .bodyContainerWrapper,
+.sideOpen .footerContainerWrapper{
+	/*left:-300px;*/
+
+}
+
+
+
+.headerContainer,
+.bodyContainer,
+.footerContainer{
+	margin: 0 auto;
+	max-width: 960px;
+	background: #FFF;}
+
+.padding{
+	padding: 20px;
+}
+
+.sideTrigger{
+	float: right;
+	margin: 30px;
+}
+
+.sideMenu{
+	position: fixed;
+	background: #FFF;
+	width: 300px;
+	height: 100%;
+	z-index: 9999;
+	right: -300px;
+	top: 0;
+}
+
+.sideMenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+.sideMenu a{
+	background: #aaa;
+	color:#FFF;
+	display: block;
+	text-decoration: none;
+	font-size:16px;
+	padding: 10px;
+	margin-top: 1px;
+}
+
+.sideMenu a:hover{
+	background: #000;
+
+}

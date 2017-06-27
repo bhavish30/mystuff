@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(".sideTrigger").ready(function(){
+    $("body").click(function(){
+        $("sideOpen").slideToggle();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+<button>Toggle slideUp() and slideDown()</button>
+
+</body>
+</html>
+
+<!-- <script type="text/javascript">
+
+	$( ".sideTrigger" ).click(function() {
+  $( "body" ).slideToggle( "sideOpen", function() {
+    // Animation complete.
+  });
+});
+
+</script>*}

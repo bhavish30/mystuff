@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content Type" content="text/html;charset=utf-8">
+	<title>jQuery Slide Menu (Slide Pulling Content)</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+ <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+ <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+<div class="sideMenu">
+	<div class="padding">
+		<p>Here will be your content for side menu container</p>
+		<ul>
+			<li><a href="#"> This will be your menu </li>
+			<li><a href="#"> This will be your menu </li>
+			<li><a href="#"> This will be your menu </li>
+		</ul>
+	</div>
+</div>
+
+<div class="headerContainerWrapper">
+	<div class="headerContainer">
+		<div class="padding">
+			<a href="#"><img src="../logo.png" alt="" width="80" height="77"></a>
+			<a href="#" class="sideTrigger"><img src="../menu.png" alt="" width="30px;" height="30px;"></a>
+		</div>
+	</div>
+</div>
+
+<div class="bodyContainerWrapper">
+	<div class="bodyContainer">
+		<div class="padding">
+				<h1>Some Heading</h1>
+			    <p>Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+				</p>
+				<p>I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone."
+				</p>
+					<ul>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+					</ul>
+					<h2>Another Heading</h2>
+					<p>If debugging is the process of removing software bugs, then programming must be the process of putting them in.Don’t worry if it doesn’t work right. If everything did, you be out of a job.- Mosher Law of Software Engineering</p>
+
+				<h1>Some Heading</h1>
+			    <p>Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+				</p>
+				<p>I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone."
+				</p>
+
+					<h2>Another Heading</h2>
+					<p>If debugging is the process of removing software bugs, then programming must be the process of putting them in.Don’t worry if it doesn’t work right. If everything did, you be out of a job.- Moshers Law of Software Engineering</p>
+
+					<h1>Some Heading</h1>
+			    <p>Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+				</p>
+				<p>I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone."
+				</p>
+					<ul>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+						<li>Some Lists</li>
+					</ul>
+					<h2>Another Heading</h2>
+					<p>If debugging is the process of removing software bugs, then programming must be the process of putting them in.Don’t worry if it doesn’t work right. If everything did, you be out of a job.- Mosher Law of Software Engineering</p>
+   		</div>
+ 	</div>
+</div>
+
+
+<div class="footerContainerWrapper">
+	<div class="footerContainer">
+		<div class="padding">
+		Here will be a footer copyright or whatever.
+			
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$("sideTrigger").click(function(){
+		$('body').toggleClass("sideOpen");
+	});
+
+</script>
+
+
+
+
+</body>
+</html>
